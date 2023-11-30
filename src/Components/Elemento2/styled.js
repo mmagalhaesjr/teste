@@ -27,6 +27,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+#cximg img{
+    width: 100%;
+    height: 100%;
+}
+
 #cxtexto{
 width: 90%;
 height: 50%;
@@ -35,6 +40,11 @@ background-color: green;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+#cxtexto h1{
+    color: #ffffff;
+    font-size: 2rem;
 }
 
 `
