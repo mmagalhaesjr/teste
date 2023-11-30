@@ -1,13 +1,11 @@
-import { StyledListadeIcones} from "./styled";
+import { StyledOutraFuncao } from "./styled";
 
 
 
-export default function ListadeIcones(p) {  
-     
-
+export default function OutraFuncao(p) {
     return (
-        <StyledListadeIcones>
-            <div id="container">
+        <StyledOutraFuncao>
+<div id="container">
                 <div id="titulo">
                     <h1>{p.titulo}</h1>
                 </div>
@@ -16,6 +14,6 @@ export default function ListadeIcones(p) {
                     {p.texto}
                 </div>
             </div>
-        </StyledListadeIcones>
+        </StyledOutraFuncao>
     )
 }

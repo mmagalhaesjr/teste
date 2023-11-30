@@ -6,6 +6,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
+height: fit-content;
+
+border: solid 1px yellow;
 
 
 #container{
