@@ -30,12 +30,7 @@ export default function Lais() {
             </div>
 
 
-                <div className="adicionar-tarefa">
-
-                    <button onClick={adicionarTarefa}
-                        className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
-
-                </div>
+               
 
                 <ul className="lista-tarefas">
                     {listaTarefas.map((tarefa) => (
@@ -51,6 +46,14 @@ export default function Lais() {
 
                 </ul>
             </div>
+
+
+            <div className="adicionar-tarefa">
+
+<button onClick={adicionarTarefa}
+    className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
+
+</div>
 
         </StyledLais>
     )

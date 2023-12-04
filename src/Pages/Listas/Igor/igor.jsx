@@ -21,21 +21,16 @@ export default function Igor() {
     return (
         <StyledIgor>
 
-            
+
 
             <div className="conteudo">
 
-            <div id="cabecalho">
-                <h1> Igor</h1>
-            </div>
-
-
-                <div className="adicionar-tarefa">
-
-                    <button onClick={adicionarTarefa}
-                        className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
-
+                <div id="cabecalho">
+                    <h1> Igor</h1>
                 </div>
+
+
+
 
                 <ul className="lista-tarefas">
                     {listaTarefas.map((tarefa) => (
@@ -50,6 +45,13 @@ export default function Igor() {
                     ))}
 
                 </ul>
+            </div>
+
+            <div className="adicionar-tarefa">
+
+                <button onClick={adicionarTarefa}
+                    className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
+
             </div>
 
         </StyledIgor>

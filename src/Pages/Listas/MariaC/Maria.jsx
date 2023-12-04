@@ -30,12 +30,6 @@ export default function Maria() {
             </div>
 
 
-                <div className="adicionar-tarefa">
-
-                    <button onClick={adicionarTarefa}
-                        className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
-
-                </div>
 
                 <ul className="lista-tarefas">
                     {listaTarefas.map((tarefa) => (
@@ -51,6 +45,14 @@ export default function Maria() {
 
                 </ul>
             </div>
+
+            
+            <div className="adicionar-tarefa">
+
+<button onClick={adicionarTarefa}
+    className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
+
+</div>
 
         </StyledMaria>
     )

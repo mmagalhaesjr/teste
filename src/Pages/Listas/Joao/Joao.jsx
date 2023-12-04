@@ -30,12 +30,7 @@ export default function Joao() {
             </div>
 
 
-                <div className="adicionar-tarefa">
-
-                    <button onClick={adicionarTarefa}
-                        className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
-
-                </div>
+                
 
                 <ul className="lista-tarefas">
                     {listaTarefas.map((tarefa) => (
@@ -51,6 +46,13 @@ export default function Joao() {
 
                 </ul>
             </div>
+
+            <div className="adicionar-tarefa">
+
+                    <button onClick={adicionarTarefa}
+                        className="botao-adicionar">ADICIONE UMA NOVA TAREFA</button>
+
+                </div>
 
         </StyledJoao>
     )
